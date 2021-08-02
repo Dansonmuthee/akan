@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="syle.css">
+    <script src="script.js"></script>
+    <h1>AKAN NAMES</h1>
+</head>
+
+<body>
+    <h2>The Akan Name Generator</h2>
+
+    <div>
+        
+        <form id="Form">
+            
+            
+            
+            <label for="date">Date of Birth</label>
+            <input type="date" id="date" class="form-control" name="date" style="text-align: center;">
+            <div class="col-md-12" style="margin-top: 20px;">
+                <input type="radio" name="gender" class="form-control" id="male">Male
+            </div>
+            <div class="col-md-12" style="margin-top: 20px;">
+                <input type="radio" name="gender" class="form-control" id="female">Female
+            </div>
+            
+            <button  id="reset" value="reset"  style="margin-bottom: 20px;"> Reset</button>
+            
+            <input type="submit"value="Submit" onClick="resultForm()"> 
+            <!-- <input id="reset" value="Reset"> -->
+        </form>
+
+    </div>
+    <div class="card" style="align-items: center;font-size: 50px;color: blue; height: 40vh;box-shadow: 10px 2px 5px 2px rgb(116, 35, 35);font-size:35px;font-weight: bolder;" id="card" >
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
